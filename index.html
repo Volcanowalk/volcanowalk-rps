@@ -5,8 +5,32 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Rock Paper Scissors</title>
     <script src="script.js"></script>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    
+    <div class="heading">Rock Paper Scissors</div>
+    <div class="buttons">
+     <div class="rock-container">
+         <input type="image" src="./images/rock.jpg" class="rock"/>
+        <button id="btnRock">ROCK</button>
+     </div>
+     <div class="paper-container">
+      <input type="image" src="./images/paper.jpg" class="paper"/>
+      <button id="btnPaper">PAPER</button>
+     </div>
+      <div class="scissors-container">
+          <input type="image" src="./images/scissors.jpg" class="scissors" />
+         <button id="btnScissors">SCISSORS</button>
+     </div>
+    </div>
+    <h1 id="winner">Winner is...</h1>
+    <h2 id="result">Play the game!</h2>
+    <div id="score">
+        <div id="txtUser">User: </div>
+        <h3 id="scoreUser">0</h2>
+        <div id="txtComputer">Computer: </div>
+        <h3 id="scoreBot">0</h3>
+    </div>
+
 </body>
 </html>
